@@ -41,6 +41,7 @@ Mit **Channel State Information (CSI)** eines ESP32 Anwesenheit erkennen – als
 ## Ideen und Szenarien
 
 * Demo: Nähert man sich dem Sensor oder hält eine Hand darüber, ändert sich der Zustand → Licht an; entfernt man sich, geht es wieder aus.
+* Das Thema eignet sich als Abschlussarbeit und kann in [SmartHome-Ideen](https://github.com/Michdo93/SmartHome-Ideen) als eigene Idee ausgearbeitet werden.
 
 ---
 

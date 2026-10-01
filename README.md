@@ -29,6 +29,8 @@ Es ist bewusst **keine Roadmap mit Terminen**, sondern ein **Backlog**: eine gep
 * **Aufgaben für Hiwis, Praxissemester und Studienprojekte:** Jedes Vorhaben ist eingeschätzt, für wen es sich eignet. Rahmenbedingungen und Voraussetzungen stehen im Repository [Praktika im Smart Home Labor](https://github.com/Michdo93/Praktika-Smart-Home-Labor).
 * **Gedächtnis:** Auch verworfene Ansätze und Erkenntnisse bleiben erhalten (z. B. warum ein Weg nicht funktioniert hat).
 
+> **Abgrenzung:** Dieses Backlog sammelt konkrete Arbeit am **bestehenden Labor**. Ausgearbeitete Themen für **Abschlussarbeiten** mit Anforderungen und Architekturvorschlag stehen im Repository [SmartHome-Ideen](https://github.com/Michdo93/SmartHome-Ideen). Vorhaben, die hier als „Abschlussarbeit“ markiert sind, können dort zu einer eigenen Idee ausgearbeitet werden.
+
 ---
 
 ## Legende
