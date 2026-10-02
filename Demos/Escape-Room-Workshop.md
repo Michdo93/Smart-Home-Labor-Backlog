@@ -13,6 +13,7 @@
 - [Ziel](#ziel)
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
+- [Verwandte Vorhaben](#verwandte-vorhaben)
 - [Repositories](#repositories)
 <!-- /TOC -->
 
@@ -35,6 +36,12 @@ Ein Workshop-Format, bei dem Teilnehmende mit **Node-RED** als visuellem Program
 * [ ] Prüfen, welche Geräte und Rätsel mit dem aktuellen Labor noch funktionieren
 * [ ] Node-RED-Instanz bereitstellen (z. B. als Container) und an openHAB/MQTT anbinden
 * [ ] Probedurchlauf
+
+---
+
+## Verwandte Vorhaben
+
+* [Smart-Home-Krimi (AR-Spiel)](Smart-Home-Krimi-AR.md) – aufwendigere, AR-basierte Variante eines interaktiven Spiels im Labor
 
 ---
 

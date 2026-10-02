@@ -14,6 +14,7 @@
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
 - [Hinweise und Risiken](#hinweise-und-risiken)
+- [Verwandte Vorhaben](#verwandte-vorhaben)
 - [Repositories](#repositories)
 <!-- /TOC -->
 
@@ -40,6 +41,12 @@ Mixed-Reality-Geräte zeigen Smart-Home-Informationen an oder starten Anwendunge
 ## Hinweise und Risiken
 
 * Verwandt: Idee „AR-Steuerung mit openHAB“ im Repo SmartHome-Ideen.
+
+---
+
+## Verwandte Vorhaben
+
+* [Smart-Home-Krimi (AR-Spiel)](../Demos/Smart-Home-Krimi-AR.md)
 
 ---
 

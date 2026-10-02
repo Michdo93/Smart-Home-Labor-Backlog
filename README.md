@@ -44,13 +44,15 @@ Rahmenbedingungen und Voraussetzungen für eine Mitarbeit stehen im Repository [
 | Status | Vorhaben |
 | --- | --- |
 | 🚧 In Arbeit | 25 |
-| 🔍 Test ausstehend | 9 |
+| 🔍 Test ausstehend | 10 |
 | 🧪 Experiment | 21 |
-| 💡 Idee | 5 |
+| 💡 Idee | 11 |
 | ⛔ Blockiert | 4 |
 | ✅ Erledigt | 2 |
-| ⚰️ Deprecated | 6 |
-| **Gesamt** | **72** |
+| ⚰️ Deprecated | 7 |
+| **Gesamt** | **80** |
+
+Die **[Ideensammlung & Verworfenes](Ideensammlung%20%26%20Verworfenes.md)** hält fest, was aus früheren Projektideen geworden ist und welche bewusst nicht weiterverfolgt werden.
 
 Die **[Repository-Übersicht](Repositories.md)** listet zusätzlich **alle Repositories** rund um das Labor – integriert, mit Nacharbeit, noch zu integrieren, ungetestet, gescheitert und deprecated – mit Beschreibung, Sprache, zugehörigem Vorhaben und Checklisten zum Abhaken.
 
@@ -100,6 +102,7 @@ Labor-Demos und Workshops, die Besuchern gezeigt werden.
 | [🤖 Pepper-Concierge](Demos/Pepper-Concierge.md) | 🚧 In Arbeit | 🔴 Hoch | Labormitarbeitende, Praxissemester |
 | [🤳 Pepper-Selfie](Demos/Pepper-Selfie.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi, Praxissemester |
 | [🔐 Smart-Home-Escape-Room-Workshop](Demos/Escape-Room-Workshop.md) | 🚧 In Arbeit | 🟠 Mittel | Labormitarbeitende, Studienprojekt |
+| [🕵️ Smart-Home-Krimi (AR-Spiel)](Demos/Smart-Home-Krimi-AR.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 
 ---
 
@@ -183,16 +186,21 @@ Geräte und Ideen, die erst noch erprobt werden – oder früher erprobt wurden.
 | [🗣️ Lokale Sprachassistenten (LIVA, Spracherkennungs-App)](Experimente/Lokale-Sprachassistenten.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 | [🏋️ NAO Gym Instructor](Experimente/NAO-Gym-Instructor.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 | [🏷️ NFC/RFID](Experimente/NFC-RFID.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi, Studienprojekt |
+| [🎛️ Roboter-Controller in mehreren Sprachen](Experimente/Roboter-Controller-Sammlung.md) | 🔍 Test ausstehend | 🟢 Niedrig | Studienprojekt |
 | [🛡️ Smart Home Security Lab](Experimente/Smart-Home-Security-Lab.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 | [⚖️ Withings Home Kamera und Personenwaage](Experimente/Withings.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [🌀 3D Hologram Fan Projector](Experimente/Hologram-Fan-Projector.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [🚙 7Links Home Security Rover](Experimente/7Links-Home-Security-Rover.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
+| [📱 Android State Publisher](Experimente/Android-State-Publisher.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt |
 | [💡 Beam Labs Beam (Projektor-Lampen)](Experimente/Beam-Labs-Beam.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt |
 | [📸 ESP32-Cam](Experimente/ESP32-Cam.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
+| [🔳 Geräteerkennung per QR-Code](Experimente/QR-Code-Geraeteerkennung.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt |
 | [👋 Gestensteuerung mit ToF-Sensoren](Experimente/ToF-Gestensteuerung.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [📶 IR-USB-HID-Transceiver](Experimente/IR-USB-HID-Transceiver.md) | ⛔ Blockiert | 🟢 Niedrig | Hiwi |
 | [📻 Imperial Dabman i250 (Internetradio)](Experimente/Imperial-Dabman-i250.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [✋ Leap Motion](Experimente/Leap-Motion.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
+| [📡 MySensors / DIY-Funksensoren](Experimente/MySensors-DIY-Sensoren.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
+| [🪴 Pflanzenüberwachung](Experimente/Pflanzenueberwachung.md) | 💡 Idee | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [🎤 Philips AEA3000/00 (Mikrofone)](Experimente/Philips-AEA3000.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt |
 | [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [📺 Samsung SmartTV](Experimente/Samsung-SmartTV.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
@@ -200,8 +208,10 @@ Geräte und Ideen, die erst noch erprobt werden – oder früher erprobt wurden.
 | [🚪 Türdurchgangszähler (TF-Luna)](Experimente/Door-Traffic-Counter.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [🥽 VR und AR (HoloLens, HTC Vive)](Experimente/VR-AR.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt |
 | [📡 WebTV](Experimente/WebTV.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
+| [📺 Wireless HDMI Matrix](Experimente/Wireless-HDMI-Matrix.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 | [🎮 Xbox-Controller und Xbox-Konsole](Experimente/Xbox-Steuerung.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [⚽ adidas miCoach Smart Ball](Experimente/adidas-miCoach-Smart-Ball.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt |
+| [🔓 Sicherheit der NAO-/Pepper-Roboter](Experimente/NAOqi-Sicherheit.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen), Studienprojekt |
 | [🔋 Smart Charging Station](Experimente/Smart-Charging-Station.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen), Hiwi |
 
 ---
@@ -248,6 +258,7 @@ Vorhaben, die sich für Hiwis und den Einstieg ins Praxissemester eignen und nic
 * [👋 Gestensteuerung mit ToF-Sensoren](Experimente/ToF-Gestensteuerung.md) – 🧪 Experiment
 * [📻 Imperial Dabman i250 (Internetradio)](Experimente/Imperial-Dabman-i250.md) – 🧪 Experiment
 * [✋ Leap Motion](Experimente/Leap-Motion.md) – 🔍 Test ausstehend
+* [🪴 Pflanzenüberwachung](Experimente/Pflanzenueberwachung.md) – 💡 Idee
 * [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) – 💡 Idee
 * [📺 Samsung SmartTV](Experimente/Samsung-SmartTV.md) – 🧪 Experiment
 * [🫖 Smarter SMK20-EU (Wasserkocher)](Experimente/Smarter-SMK20-Wasserkocher.md) – 🧪 Experiment
@@ -270,6 +281,7 @@ Abgeschlossene und abgelöste Vorhaben sind eine gute Quelle für eigene Ideen �
 * [📚 Frühere Python-Bibliotheken und Proxys für openHAB](openHAB/Python-Bibliotheken-Historie.md) – ⚰️ Deprecated
 * [🤖 ROS-1-Bridge zwischen openHAB und ROS](openHAB/ROS1-openHAB-Bridge-Historie.md) – ⚰️ Deprecated
 * [🧠 openhab-ai: ML-basierte Regel-Engine](openHAB/openHAB-AI-Regel-Engine.md) – ⚰️ Deprecated
+* [🔓 Sicherheit der NAO-/Pepper-Roboter](Experimente/NAOqi-Sicherheit.md) – ⚰️ Deprecated
 * [🔋 Smart Charging Station](Experimente/Smart-Charging-Station.md) – ⚰️ Deprecated
 
 Alles, was bereits **integriert und in Betrieb** ist (derzeit 63 Repositories – von Gerätesteuerungen über REST-Clients in acht Sprachen bis zu Backup-Skripten), steht in der [Repository-Übersicht → Integriert und in Betrieb](Repositories.md#integriert-und-in-betrieb); die **54 deprecated Repositories** mit Nachfolger unter [Deprecated und entfernt](Repositories.md#deprecated-und-entfernt).
