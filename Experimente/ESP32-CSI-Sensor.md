@@ -27,6 +27,8 @@ Mit **Channel State Information (CSI)** eines ESP32 Anwesenheit erkennen – als
 
 * Eine einfache Variante, die wie ein Präsenzmelder funktioniert, wurde getestet (Heatmap).
 * Die komplexere Variante mit mehreren Antennen und 3D-Wahrnehmung ist noch nicht getestet.
+* Zusätzlich liegt ein Fork eines Echtzeit-Wi-Fi-Sensing-Systems vor (`ESP32-Realtime-System`, ungetestet).
+* **Gescheitert:** Das Flashen eines Asus RT-AC86U für Wi-Fi Sensing (`Flashing-Asus-RT-AC86U-for-Wi-Fi-Sensing`) gelang nicht.
 
 ---
 
@@ -49,5 +51,7 @@ Mit **Channel State Information (CSI)** eines ESP32 Anwesenheit erkennen – als
 
 * [esp32-csi-heatmap](https://github.com/Michdo93/esp32-csi-heatmap)
 * [esp32-csi-presence-sensor](https://github.com/Michdo93/esp32-csi-presence-sensor)
+* [ESP32-Realtime-System](https://github.com/Michdo93/ESP32-Realtime-System)
+* [Flashing-Asus-RT-AC86U-for-Wi-Fi-Sensing](https://github.com/Michdo93/Flashing-Asus-RT-AC86U-for-Wi-Fi-Sensing)
 
 ---

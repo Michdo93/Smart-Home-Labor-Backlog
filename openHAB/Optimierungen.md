@@ -31,7 +31,7 @@ Sammlung kleinerer Verbesserungen für zwischendurch.
 
 * [ ] Lampen über das **Hue-Gateway** direkt bzw. über **Gruppen** ansteuern – schneller als über Regeln
 * [ ] Weitere Optimierungen durch Gruppierung identifizieren
-* [ ] Selfie-Anwendung überarbeiten (siehe auch [Brother VC-500W](../Experimente/Brother-VC-500W.md))
+* [ ] Selfie-Anwendung überarbeiten (siehe [Pepper-Selfie](../Demos/Pepper-Selfie.md))
 
 ---
 

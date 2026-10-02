@@ -13,6 +13,7 @@
 - [Ziel](#ziel)
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
+- [Repositories](#repositories)
 <!-- /TOC -->
 
 ## Ziel
@@ -37,3 +38,10 @@ Eigene Dashboards in HTML/CSS/JavaScript als ansprechendere Alternative zu Sitem
 
 ---
 
+## Repositories
+
+* [js-openhab-rest-client](https://github.com/Michdo93/js-openhab-rest-client)
+* [webtv-openhab](https://github.com/Michdo93/webtv-openhab)
+* [webradio-openhab](https://github.com/Michdo93/webradio-openhab)
+
+---

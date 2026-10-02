@@ -2,7 +2,7 @@
 
 | | |
 | --- | --- |
-| **Status** | 🧪 Experiment |
+| **Status** | 🔍 Test ausstehend |
 | **Priorität** | 🟢 Niedrig |
 | **Raum** | Multimedia |
 | **Geeignet für** | Hiwi |
@@ -29,6 +29,7 @@ Fernsehstreams im Smart Home abspielen – lokal oder auf einem entfernten Gerä
 * Die Rule startet den Player entweder lokal oder – bei konfigurierter SSH-Verbindung – auf einem entfernten Gerät.
 * Die Items enthalten Metadaten mit **m3u8-Streams** (öffentlich verfügbar, z. B. aus Kodi-Konfigurationen).
 * Oberfläche als HTML statt Sitemap.
+* Vorgänger sind **deprecated**: `openHAB-web-tv` (Exec Binding + SSH, VLC oder Browser), `openHAB-VLC-Control`, `webtv_selenium` (Login bei Web-TV-Streams), `python-german-epg` (EPG per Web-Scraping).
 
 ---
 

@@ -13,6 +13,7 @@
 - [Ziel](#ziel)
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
+- [Repositories](#repositories)
 <!-- /TOC -->
 
 ## Ziel
@@ -27,6 +28,8 @@ In jedem Raum hängt ein Tablet, das im **Kiosk-Modus** das Dashboard des Raums 
 * Pro Raum ist ein Tablet auf das Dashboard dieses Raums beschränkt; zusätzlich gibt es ein Master-Tablet.
 * Wandhalterungen (zum Bohren oder Kleben) sind vorhanden.
 * **Küche:** Tablet mit schwenkbarer Halterung und beweglichem Arm. Es soll eine Rezept-Webseite zeigen; Account und Beispielrezepte sind eingerichtet (Tags und Feinschliff fehlen).
+* Ein Skript richtet den Kiosk-Modus auf Linux-Tablets (Ubuntu, Lubuntu, Kubuntu) mit Chromium ein (`ubuntu-tablet-kiosk-mode-installer`, integriert).
+* Ein `kiosk-launcher` ist integriert, **muss aber refactort werden** (Repository öffentlich nicht auffindbar).
 
 ---
 
@@ -36,6 +39,13 @@ In jedem Raum hängt ein Tablet, das im **Kiosk-Modus** das Dashboard des Raums 
 * [ ] Tablets montieren
 * [ ] Tablets für **Webradio** und **Medialib** vorbereiten (vorhandene ähnliche Anwendung anpassen)
 * [ ] Rezepte in der Küchen-App verschlagworten
+* [ ] `kiosk-launcher` refactoren und Repository-Sichtbarkeit klären
+* [ ] Kiosk-Installer so erweitern, dass die Start-URL (Raum-Dashboard) als Parameter übergeben wird
 
 ---
 
+## Repositories
+
+* [ubuntu-tablet-kiosk-mode-installer](https://github.com/Michdo93/ubuntu-tablet-kiosk-mode-installer)
+
+---

@@ -14,6 +14,7 @@
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
 - [Abhängigkeiten](#abhängigkeiten)
+- [Repositories](#repositories)
 <!-- /TOC -->
 
 ## Ziel
@@ -26,6 +27,8 @@ In jedem Raum stellt ein Raspberry Pi per **USB/IP** USB-Geräte (Leap Motion, N
 
 * Die Images sind geflasht.
 * Geplant: ein Pi pro Raum, im Konferenzraum zwei.
+* Eine Anleitung zur Konfiguration von USB/IP-Client und -Server liegt vor (`USBIP-Configuration`).
+* Für die Konferenzkamera und den Konferenzlautsprecher gibt es Skripte, die sie automatisch per USB/IP einbinden (`Labor-Smart-Home-Konferenz-Kamera`).
 
 ---
 
@@ -43,3 +46,9 @@ In jedem Raum stellt ein Raspberry Pi per **USB/IP** USB-Geräte (Leap Motion, N
 
 ---
 
+## Repositories
+
+* [USBIP-Configuration](https://github.com/Michdo93/USBIP-Configuration)
+* [Labor-Smart-Home-Konferenz-Kamera](https://github.com/Michdo93/Labor-Smart-Home-Konferenz-Kamera)
+
+---

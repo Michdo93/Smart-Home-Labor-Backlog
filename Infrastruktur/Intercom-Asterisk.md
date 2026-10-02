@@ -27,6 +27,7 @@ Eine Gegensprechanlage zwischen den Räumen auf Basis von **Asterisk**, mit alte
 * Der Code ist fertig, aber bisher nur mit **zwei VMs** getestet.
 * Nicht mehr benötigte Raspberry Pis bekommen ein Touch-Display.
 * **Blockiert:** Die bestellten Konferenzlautsprecher waren die falschen; die Lieferung wurde reklamiert.
+* Der **Asterisk-Server** (Ubuntu Server auf Proxmox, mit Piper TTS und einem Python-Smart-Home-Dienst) ist eingerichtet und dokumentiert (`asterisk-smarthome`).
 
 ---
 
@@ -42,5 +43,6 @@ Eine Gegensprechanlage zwischen den Räumen auf Basis von **Asterisk**, mit alte
 ## Repositories
 
 * [rpi-intercom](https://github.com/Michdo93/rpi-intercom)
+* [asterisk-smarthome](https://github.com/Michdo93/asterisk-smarthome)
 
 ---

@@ -28,6 +28,7 @@ Der Beamer soll zuverlässig über openHAB gesteuert werden – mit Befehlen **u
 * **Ansatz 1 – RS232:** Befehle kamen an, die Rückmeldungen (States) waren wegen eines unzureichenden Spannungspegels unbrauchbar.
 * **Ansatz 2 – Crestron RoomView:** Steuerung der Flash-Anwendung auf dem Beamer per PyAutoGUI. Funktionierte, ist aber eine Notlösung.
 * **Ansatz 3 – RS232 über TCP (LAN):** Aktueller Ansatz. Ein Python-Programm auf einem Raspberry Pi sendet die RS232-Befehle per TCP und ist per MQTT an openHAB angebunden.
+* `crestron-roomview`, `openHAB-Crestron-RoomView-Control` (Ansatz 2) und der allgemeine RS232-Handler `rs232` sind **deprecated**.
 
 ---
 

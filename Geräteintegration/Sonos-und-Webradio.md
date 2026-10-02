@@ -62,6 +62,7 @@ In jedem Raum lässt sich über eine ansprechende Weboberfläche Webradio auf de
 * Upgrades haben in der Vergangenheit Probleme gemacht. Schlagen sie fehl, müssen ggf. andere Geräte **downgegradet** oder aus dem System entfernt und neu hinzugefügt werden.
 * Deshalb: Upgrades **nie kurz vor einer Labor-Demo**.
 * Der Lautsprecher im Multimedia-Raum wird vom [Pepper-Concierge](../Demos/Pepper-Concierge.md) direkt angesprochen.
+* Vorgänger `openHAB-web-radio` (Sonos Binding mit MP3-Livestreams) ist deprecated.
 
 ---
 

@@ -27,6 +27,7 @@ Alle Rules laufen fehlerfrei auf den aktuellen Rule Engines (vor allem **Python 
 * Einige Rules sind noch nicht migriert bzw. noch nicht getestet.
 * Die [Morgenroutine](../Demos/Morgenroutine.md) läuft zeitlich nicht korrekt.
 * Die openHAB Design Patterns wurden bereits auf Rules DSL, JavaScript Scripting und Python 3 Scripting übertragen.
+* Tests mit openHAB 5 und **GraalPy** liegen im Repository `openHAB5-Test`.
 
 ---
 
@@ -41,5 +42,6 @@ Alle Rules laufen fehlerfrei auf den aktuellen Rule Engines (vor allem **Python 
 ## Repositories
 
 * [openhab-design-patterns-examples](https://github.com/Michdo93/openhab-design-patterns-examples)
+* [openHAB5-Test](https://github.com/Michdo93/openHAB5-Test)
 
 ---
