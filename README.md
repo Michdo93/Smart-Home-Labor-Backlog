@@ -114,6 +114,7 @@ Server, Proxmox, Docker, Netzwerk, Wartung und Hardware-Installation.
 | [🖥️ Remote-Zugriff (Guacamole, WOLverine)](Infrastruktur/Remote-Zugriff-Guacamole.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
 | [📡 MQTT Live Monitor](Infrastruktur/MQTT-Live-Monitor.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🪟 Windows-Systeme automatisch aktualisieren](Infrastruktur/Windows-Systeme-aktualisieren.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
+| [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 
 ---
 
@@ -134,6 +135,7 @@ Konfiguration, Rules, Oberflächen und Erweiterungen von openHAB.
 | [🔗 ROS 2 und openHAB](openHAB/ROS2-Bridge.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 | [🔄 Repositories bereits migrierter Projekte aktualisieren](openHAB/Repos-migrierter-Projekte-aktualisieren.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🧭 Sitemaps und MainUI](openHAB/Sitemaps-und-MainUI.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
+| [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) | 🔍 Test ausstehend | 🟠 Mittel | Hiwi, Studienprojekt |
 
 ---
 
@@ -168,6 +170,7 @@ Geräte und Ideen, die erst noch erprobt werden.
 | [📡 WebTV](Experimente/WebTV.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
 | [🎮 Xbox-Controller und Xbox-Konsole](Experimente/Xbox-Steuerung.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [⚽ adidas miCoach Smart Ball](Experimente/adidas-miCoach-Smart-Ball.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt |
+| [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 
 ---
 
@@ -215,6 +218,9 @@ Vorhaben, die sich für Hiwis und den Einstieg ins Praxissemester eignen und nic
 * [🚪 Türdurchgangszähler (TF-Luna)](Experimente/Door-Traffic-Counter.md) – 🧪 Experiment
 * [📡 WebTV](Experimente/WebTV.md) – 🔍 Test ausstehend
 * [🎮 Xbox-Controller und Xbox-Konsole](Experimente/Xbox-Steuerung.md) – 🧪 Experiment
+* [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) – 🔍 Test ausstehend
+* [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) – 💡 Idee
+* [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) – 💡 Idee
 
 Besonders gut zum Kennenlernen: **ungetestete Repositories testen** (siehe [Repository-Übersicht](Repositories.md#ungetestet-und-noch-nicht-integriert)) und **deprecated Repositories kennzeichnen und archivieren**.
 

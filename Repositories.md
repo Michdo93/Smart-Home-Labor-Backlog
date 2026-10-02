@@ -68,8 +68,8 @@ Diese Repositories sind im Labor im Einsatz.
 | [openHAB5-Test](https://github.com/Michdo93/openHAB5-Test) | Tests mit openHAB 5 und GraalPy | – | [Rules Migration](openHAB/Rules-Migration.md) |
 | [HABApp-MQTT-Event-Bus](https://github.com/Michdo93/HABApp-MQTT-Event-Bus) | MQTT-Event-Bus für openHAB mit HABApp | Python | [Python 3 Migration Altprojekte](openHAB/Python-3-Migration-Altprojekte.md) |
 | [openHABSpeechRecognizer](https://github.com/Michdo93/openHABSpeechRecognizer) | Android-App: erkannter Text → STT-Puffer-Item | Java | [Lokale Sprachassistenten](Experimente/Lokale-Sprachassistenten.md) |
-| [openhab_static_examples](https://github.com/Michdo93/openhab_static_examples) | Statische Beispiel-Items für jeden Item-Typ | HTML | – |
-| [openhab_postman_templates](https://github.com/Michdo93/openhab_postman_templates) | Postman-Collections für die REST API von openHAB und openHAB Cloud | – | – |
+| [openhab_static_examples](https://github.com/Michdo93/openhab_static_examples) | Statische Beispiel-Items für jeden Item-Typ | HTML | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [openhab_postman_templates](https://github.com/Michdo93/openhab_postman_templates) | Postman-Collections für die REST API von openHAB und openHAB Cloud | – | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
 | [openHAB-Alexa-Sound-Library](https://github.com/Michdo93/openHAB-Alexa-Sound-Library) | Alexa Skills Kit Sound Library über das Amazon Echo Control Binding | – | [Repos migrierter Projekte aktualisieren](openHAB/Repos-migrierter-Projekte-aktualisieren.md) |
 | [openHAB-Alexa-Speechcons](https://github.com/Michdo93/openHAB-Alexa-Speechcons) | Deutsche Speechcons über das Amazon Echo Control Binding | – | [Repos migrierter Projekte aktualisieren](openHAB/Repos-migrierter-Projekte-aktualisieren.md) |
 | [openHAB-Alexa-SSML](https://github.com/Michdo93/openHAB-Alexa-SSML) | Deutsche SSML-Beispiele über das Amazon Echo Control Binding | – | [Repos migrierter Projekte aktualisieren](openHAB/Repos-migrierter-Projekte-aktualisieren.md) |
@@ -80,22 +80,22 @@ Diese Repositories sind im Labor im Einsatz.
 
 | Repository | Beschreibung | Sprache | Vorhaben |
 | --- | --- | --- | --- |
-| [android-openhab-test-suite](https://github.com/Michdo93/android-openhab-test-suite) | openHAB Test Suite (Android/Kotlin) | Kotlin | – |
-| [c-openhab-test-suite](https://github.com/Michdo93/c-openhab-test-suite) | openHAB Test Suite (C) | C | – |
-| [cpp-openhab-test-suite](https://github.com/Michdo93/cpp-openhab-test-suite) | openHAB Test Suite (C++) | C++ | – |
-| [csharp-openhab-test-suite](https://github.com/Michdo93/csharp-openhab-test-suite) | openHAB Test Suite (C#) | C# | – |
-| [nodejs-openhab-test-suite](https://github.com/Michdo93/nodejs-openhab-test-suite) | openHAB Test Suite (Node.js) | JavaScript | – |
-| [js-openhab-test-suite](https://github.com/Michdo93/js-openhab-test-suite) | openHAB Test Suite (JavaScript) | HTML | – |
-| [java-openhab-test-suite](https://github.com/Michdo93/java-openhab-test-suite) | openHAB Test Suite (Java) | Java | – |
-| [openhab-test-suite](https://github.com/Michdo93/openhab-test-suite) | Testbibliothek zum Prüfen von openHAB-Installationen (Python) | Python | – |
-| [android-openhab-rest-client](https://github.com/Michdo93/android-openhab-rest-client) | REST-Client für openHAB (Android/Kotlin) | Kotlin | – |
-| [c-openhab-rest-client](https://github.com/Michdo93/c-openhab-rest-client) | REST-Client für openHAB (C) | C | – |
+| [android-openhab-test-suite](https://github.com/Michdo93/android-openhab-test-suite) | openHAB Test Suite (Android/Kotlin) | Kotlin | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [c-openhab-test-suite](https://github.com/Michdo93/c-openhab-test-suite) | openHAB Test Suite (C) | C | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [cpp-openhab-test-suite](https://github.com/Michdo93/cpp-openhab-test-suite) | openHAB Test Suite (C++) | C++ | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [csharp-openhab-test-suite](https://github.com/Michdo93/csharp-openhab-test-suite) | openHAB Test Suite (C#) | C# | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [nodejs-openhab-test-suite](https://github.com/Michdo93/nodejs-openhab-test-suite) | openHAB Test Suite (Node.js) | JavaScript | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [js-openhab-test-suite](https://github.com/Michdo93/js-openhab-test-suite) | openHAB Test Suite (JavaScript) | HTML | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [java-openhab-test-suite](https://github.com/Michdo93/java-openhab-test-suite) | openHAB Test Suite (Java) | Java | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [openhab-test-suite](https://github.com/Michdo93/openhab-test-suite) | Testbibliothek zum Prüfen von openHAB-Installationen (Python) | Python | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [android-openhab-rest-client](https://github.com/Michdo93/android-openhab-rest-client) | REST-Client für openHAB (Android/Kotlin) | Kotlin | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [c-openhab-rest-client](https://github.com/Michdo93/c-openhab-rest-client) | REST-Client für openHAB (C) | C | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
 | [js-openhab-rest-client](https://github.com/Michdo93/js-openhab-rest-client) | REST-Client für openHAB (JavaScript, Browser) | HTML | [Dashboards](openHAB/Dashboards.md) |
-| [nodejs-openhab-rest-client](https://github.com/Michdo93/nodejs-openhab-rest-client) | REST-Client für openHAB (Node.js) | JavaScript | – |
-| [java-openhab-rest-client](https://github.com/Michdo93/java-openhab-rest-client) | REST-Client für openHAB (Java) | Java | – |
-| [cpp-openhab-rest-client](https://github.com/Michdo93/cpp-openhab-rest-client) | REST-Client für openHAB (C++) | C++ | – |
-| [csharp-openhab-rest-client](https://github.com/Michdo93/csharp-openhab-rest-client) | REST-Client für openHAB (C#) | C# | – |
-| [python-openhab-rest-client](https://github.com/Michdo93/python-openhab-rest-client) | REST-Client für openHAB (Python) | Python | – |
+| [nodejs-openhab-rest-client](https://github.com/Michdo93/nodejs-openhab-rest-client) | REST-Client für openHAB (Node.js) | JavaScript | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [java-openhab-rest-client](https://github.com/Michdo93/java-openhab-rest-client) | REST-Client für openHAB (Java) | Java | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [cpp-openhab-rest-client](https://github.com/Michdo93/cpp-openhab-rest-client) | REST-Client für openHAB (C++) | C++ | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [csharp-openhab-rest-client](https://github.com/Michdo93/csharp-openhab-rest-client) | REST-Client für openHAB (C#) | C# | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
+| [python-openhab-rest-client](https://github.com/Michdo93/python-openhab-rest-client) | REST-Client für openHAB (Python) | Python | [REST Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) |
 
 ### Robotik
 
@@ -139,7 +139,7 @@ Diese Repositories sind im Labor im Einsatz.
 | [qr2pdf](https://github.com/Michdo93/qr2pdf) | Mehrere QR-Codes in eine druckbare PDF einfügen | Python | [QR Code Steuerung](Ger%C3%A4teintegration/QR-Code-Steuerung.md) |
 | [QR-Code-Generator](https://github.com/Michdo93/QR-Code-Generator) | QR-Codes erzeugen und als Bild speichern | Python | [QR Code Steuerung](Ger%C3%A4teintegration/QR-Code-Steuerung.md) |
 
-> Die **REST-Clients** und **Test Suites** gibt es für acht Sprachen. Bei Änderungen an der openHAB REST API (neue openHAB-Version) sollten alle Varianten gemeinsam geprüft werden.
+> Die **REST-Clients** und **Test Suites** gibt es für acht Sprachen (Vorhaben: [REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md)). Bei Änderungen an der openHAB REST API (neue openHAB-Version) sollten alle Varianten gemeinsam geprüft werden.
 
 ---
 
@@ -181,7 +181,7 @@ Code ist vorhanden und (weitgehend) lauffähig, aber noch nicht dauerhaft im Lab
 | [liva-jetson-ai](https://github.com/Michdo93/liva-jetson-ai) | Fork: Sprachassistent für Jetson | Python | [Lokale Sprachassistenten](Experimente/Lokale-Sprachassistenten.md) | Inhalt sichten |
 | [liva-raspberry-va](https://github.com/Michdo93/liva-raspberry-va) | Fork: Sprachassistent für Raspberry Pi | Python | [Lokale Sprachassistenten](Experimente/Lokale-Sprachassistenten.md) | Inhalt sichten |
 | [WSGI-Server](https://github.com/Michdo93/WSGI-Server) | Anleitung: WSGI-Server für Python-Anwendungen einrichten | – | [Gunicorn Migration](Infrastruktur/Gunicorn-Migration.md) | das meiste läuft noch unter python3 statt Gunicorn |
-| [ControlX](https://github.com/Michdo93/ControlX) | Ohne Beschreibung (HTML) | HTML | – | Inhalt sichten |
+| [ControlX](https://github.com/Michdo93/ControlX) | Ohne Beschreibung (HTML) | HTML | [Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | Inhalt sichten |
 | [WOLverine](https://github.com/Michdo93/WOLverine) | Flask-Dashboard: Rechner per Wake-on-LAN schalten und überwachen | Python | [Remote Zugriff Guacamole](Infrastruktur/Remote-Zugriff-Guacamole.md) | – |
 | [MQTT-Live-Monitor](https://github.com/Michdo93/MQTT-Live-Monitor) | Live-Anzeige von MQTT-Topics und -Nachrichten im Browser | HTML | [MQTT Live Monitor](Infrastruktur/MQTT-Live-Monitor.md) | – |
 | [Smart-Home-Escape-Room-Workshop](https://github.com/Michdo93/Smart-Home-Escape-Room-Workshop) | Workshop-Modell mit Node-RED im Smart Home Labor (Fork) | Python | [Escape Room Workshop](Demos/Escape-Room-Workshop.md) | – |
@@ -221,7 +221,7 @@ Code liegt vor, wurde aber noch nicht (vollständig) getestet. Gute Aufgaben zum
 | [door-traffic-counter](https://github.com/Michdo93/door-traffic-counter) | Richtungs-Türzähler mit ESP32 und zwei TF-Luna-LiDAR, per MQTT an openHAB | C++ | [Door Traffic Counter](Experimente/Door-Traffic-Counter.md) | – |
 | [vl53l5cx_gesture_experiments](https://github.com/Michdo93/vl53l5cx_gesture_experiments) | Gestenerkennung mit dem VL53L5CX (Python) | Python | [ToF Gestensteuerung](Experimente/ToF-Gestensteuerung.md) | – |
 | [Nao-Gym-Instructor](https://github.com/Michdo93/Nao-Gym-Instructor) | NAO Gym Instructor: Portierung auf Raspberry Pi mit Kinect V1 | Python | [NAO Gym Instructor](Experimente/NAO-Gym-Instructor.md) | – |
-| [openhab-sheets-rules](https://github.com/Michdo93/openhab-sheets-rules) | Ohne Beschreibung (Python) | Python | – | Inhalt sichten |
+| [openhab-sheets-rules](https://github.com/Michdo93/openhab-sheets-rules) | Ohne Beschreibung (Python) | Python | [Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | Inhalt sichten |
 | [pepper_ros2_ws](https://github.com/Michdo93/pepper_ros2_ws) | ROS-2-Workspace für Pepper | Python | [Pepper Concierge](Demos/Pepper-Concierge.md) | – |
 | [ros2_openhab_ws](https://github.com/Michdo93/ros2_openhab_ws) | ROS-2-Workspace für die openHAB-Anbindung | Python | [ROS2 Bridge](openHAB/ROS2-Bridge.md) | – |
 | [Smart-Home-Security-Lab](https://github.com/Michdo93/Smart-Home-Security-Lab) | Smart Home Security Lab | HTML | [Smart Home Security Lab](Experimente/Smart-Home-Security-Lab.md) | Inhalt sichten |
@@ -237,7 +237,7 @@ Code liegt vor, wurde aber noch nicht (vollständig) getestet. Gute Aufgaben zum
 | [beamctl](https://github.com/Michdo93/beamctl) | Beam Labs Beam ohne Original-App steuern | Python | [Beam Labs Beam](Experimente/Beam-Labs-Beam.md) | – |
 | [Smarter-SMK20-EU](https://github.com/Michdo93/Smarter-SMK20-EU) | Smarter Wasserkocher SMK20-EU ansteuern | Python | [Smarter SMK20 Wasserkocher](Experimente/Smarter-SMK20-Wasserkocher.md) | – |
 | [7Links-Home-Security-Rover-Controller](https://github.com/Michdo93/7Links-Home-Security-Rover-Controller) | Steuerung des 7Links Home Security Rover | Python | [7Links Home Security Rover](Experimente/7Links-Home-Security-Rover.md) | – |
-| `smart-farm-house` 🔒 | Smart Farm House | – | – | Öffentlich nicht auffindbar |
+| `smart-farm-house` 🔒 | Smart Farm House | – | [Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | Öffentlich nicht auffindbar |
 | [arlo-cam-tests](https://github.com/Michdo93/arlo-cam-tests) | Tests mit Arlo-Kameras | – | [Smart Home Security Lab](Experimente/Smart-Home-Security-Lab.md) | – |
 | [esp32-csi-presence-sensor](https://github.com/Michdo93/esp32-csi-presence-sensor) | WLAN-CSI-Präsenzsensor mit dem ESP32 | Python | [ESP32 CSI Sensor](Experimente/ESP32-CSI-Sensor.md) | – |
 | [hololens-viewer](https://github.com/Michdo93/hololens-viewer) | HoloLens-Viewer (JavaScript) | JavaScript | [VR AR](Experimente/VR-AR.md) | – |
@@ -368,6 +368,8 @@ Diese Repositories werden **nicht mehr weiterentwickelt**; einige sind im Labor 
 * [ ] Repositories auf GitHub **archivieren** (Settings → Archive), damit klar ist, dass sie nicht mehr gepflegt werden
 * [ ] Prüfen, ob im Labor noch Reste laufen (Services, Cron-Jobs, Container) – und diese entfernen
 * [ ] Die Beam-Remote-Decompiled-Repos **nicht löschen**: Sie sind Quelle für `beamctl`
+
+Ausführliche Checkliste pro Repository: [Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md).
 
 Vorgehen und Vorlage: [Repositories pflegen und archivieren](https://github.com/Michdo93/Informatik/blob/main/Best%20Practices/Repositories%20pflegen%20%26%20archivieren.md) im Kompendium Informatik.
 
