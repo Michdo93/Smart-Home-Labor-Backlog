@@ -1,23 +1,25 @@
 # 🗂️ Smart-Home-Labor-Backlog
 
-Dieses Repository sammelt alles, was im **Smart Home Labor der Hochschule Furtwangen (HFU)** noch **umgesetzt, getestet, repariert, migriert oder ausprobiert** werden soll – von der Fehlerbehebung in einer Labor-Demo über den Umzug von VMs bis zu Experimenten mit offenem Ausgang.
+Dieses Repository sammelt alles, was im **Smart Home Labor der Hochschule Furtwangen (HFU)** noch **umgesetzt, getestet, repariert, migriert oder ausprobiert** werden soll – und ebenso, **was bereits umgesetzt wurde** und **was verworfen oder abgelöst** ist.
 
-Es ist bewusst **keine Roadmap mit Terminen**, sondern ein **Backlog**: eine gepflegte, priorisierte Liste offener Vorhaben. Zu jedem Vorhaben gibt es eine eigene Datei mit Ziel, Ist-Stand, offenen Aufgaben, Hinweisen und den zugehörigen Repositories.
+Es ist bewusst **keine Roadmap mit Terminen**, sondern ein **Backlog**: eine gepflegte, priorisierte Liste von Vorhaben. Zu jedem Vorhaben gibt es eine eigene Datei mit Ziel, Ist-Stand, offenen Aufgaben, Hinweisen und den zugehörigen Repositories.
 
 <!-- TOC -->
 ## Inhaltsverzeichnis
 
 - [Wofür ist dieses Repository?](#wofür-ist-dieses-repository)
-- [Repository-Übersicht](#repository-übersicht)
+- [Auf einen Blick](#auf-einen-blick)
 - [Legende](#legende)
   - [Status](#status)
   - [Priorität](#priorität)
+- [Betrieb](#betrieb)
 - [Demos](#demos)
 - [Geräteintegration](#geräteintegration)
 - [Infrastruktur](#infrastruktur)
 - [openHAB](#openhab)
 - [Experimente](#experimente)
 - [Gute Einstiegsaufgaben](#gute-einstiegsaufgaben)
+- [Woran kann ich anknüpfen?](#woran-kann-ich-anknüpfen)
 - [Mitarbeit](#mitarbeit)
   - [Ein Vorhaben übernehmen und abschließen](#ein-vorhaben-übernehmen-und-abschließen)
   - [Ein neues Vorhaben anlegen](#ein-neues-vorhaben-anlegen)
@@ -27,9 +29,9 @@ Es ist bewusst **keine Roadmap mit Terminen**, sondern ein **Backlog**: eine gep
 ## Wofür ist dieses Repository?
 
 * **Aufgaben finden:** Praktikantinnen und Praktikanten, Hiwis und Studierende sehen hier, woran sie arbeiten können – mit Einschätzung, für wen sich ein Vorhaben eignet.
-* **Überblick:** Was ist im Labor offen, was blockiert, was ist fast fertig, was wurde verworfen?
+* **Sehen, was es schon gibt:** Abgeschlossene und deprecated Vorhaben bleiben sichtbar. Wer weiß, was im Labor schon entstanden ist, kann daran **anknüpfen** und eigene Ideen entwickeln.
+* **Überblick:** Was ist offen, was blockiert, was fast fertig, was wurde verworfen – und warum?
 * **Übergabe:** Wer ein Vorhaben übernimmt, findet den aktuellen Stand und die nächsten Schritte, ohne E-Mails durchsuchen zu müssen.
-* **Gedächtnis:** Auch verworfene Ansätze und Erkenntnisse bleiben erhalten (z. B. warum ein Weg nicht funktioniert hat).
 
 Rahmenbedingungen und Voraussetzungen für eine Mitarbeit stehen im Repository [Praktika im Smart Home Labor](https://github.com/Michdo93/Praktika-Smart-Home-Labor), das nötige Hintergrundwissen im Kompendium [Informatik](https://github.com/Michdo93/Informatik).
 
@@ -37,9 +39,20 @@ Rahmenbedingungen und Voraussetzungen für eine Mitarbeit stehen im Repository [
 
 ---
 
-## Repository-Übersicht
+## Auf einen Blick
 
-Die **[Repository-Übersicht](Repositories.md)** listet alle Repositories rund um das Labor – **integriert**, **mit Nacharbeit**, **noch zu integrieren**, **ungetestet**, **gescheitert** und **deprecated** – mit Beschreibung, Sprache, zugehörigem Vorhaben und Checklisten zum Abhaken.
+| Status | Vorhaben |
+| --- | --- |
+| 🚧 In Arbeit | 25 |
+| 🔍 Test ausstehend | 9 |
+| 🧪 Experiment | 21 |
+| 💡 Idee | 5 |
+| ⛔ Blockiert | 4 |
+| ✅ Erledigt | 2 |
+| ⚰️ Deprecated | 6 |
+| **Gesamt** | **72** |
+
+Die **[Repository-Übersicht](Repositories.md)** listet zusätzlich **alle Repositories** rund um das Labor – integriert, mit Nacharbeit, noch zu integrieren, ungetestet, gescheitert und deprecated – mit Beschreibung, Sprache, zugehörigem Vorhaben und Checklisten zum Abhaken.
 
 ---
 
@@ -54,7 +67,8 @@ Die **[Repository-Übersicht](Repositories.md)** listet alle Repositories rund u
 | 🚧 In Arbeit | Wird umgesetzt, Teile funktionieren bereits |
 | 🔍 Test ausstehend | Umgesetzt, muss noch getestet oder abgenommen werden |
 | ⛔ Blockiert | Wartet auf etwas (Hardware, Lieferung, Fehlerursache) |
-| ✅ Erledigt | Abgeschlossen – bleibt zur Dokumentation erhalten |
+| ✅ Erledigt | Abgeschlossen und in Betrieb – bleibt zur Dokumentation erhalten |
+| ⚰️ Deprecated | Abgelöst oder nicht mehr im Einsatz – bleibt als Dokumentation und Ideenquelle erhalten |
 
 ### Priorität
 
@@ -63,6 +77,16 @@ Die **[Repository-Übersicht](Repositories.md)** listet alle Repositories rund u
 | 🔴 Hoch | Betrifft Labor-Demos oder den laufenden Betrieb |
 | 🟠 Mittel | Wichtig für den Ausbau des Labors |
 | 🟢 Niedrig | Für zwischendurch, „nice to have“ |
+
+---
+
+## Betrieb
+
+Wiederkehrende Aufgaben im laufenden Laborbetrieb (Daily Business).
+
+| Vorhaben | Status | Priorität | Geeignet für |
+| --- | --- | --- | --- |
+| [🗓️ Laufender Betrieb (Daily Business)](Betrieb/Laufender-Betrieb.md) | 🚧 In Arbeit | 🔴 Hoch | Hiwi, Praxissemester |
 
 ---
 
@@ -81,7 +105,7 @@ Labor-Demos und Workshops, die Besuchern gezeigt werden.
 
 ## Geräteintegration
 
-Geräte, deren Einbindung begonnen hat oder weitgehend fertig ist.
+Geräte, deren Einbindung begonnen hat, weitgehend fertig oder abgeschlossen ist.
 
 | Vorhaben | Status | Priorität | Geeignet für |
 | --- | --- | --- | --- |
@@ -93,6 +117,8 @@ Geräte, deren Einbindung begonnen hat oder weitgehend fertig ist.
 | [🔔 Doorbird D101 (Türsprechanlage)](Ger%C3%A4teintegration/Doorbird-D101.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
 | [🎶 Lichtorgel (Sonos + Hue)](Ger%C3%A4teintegration/Music-Light-Organ.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🔳 QR-Code-Steuerung](Ger%C3%A4teintegration/QR-Code-Steuerung.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
+| [🪟 Somfy TaHoma (lokale API)](Ger%C3%A4teintegration/Somfy-TaHoma.md) | ✅ Erledigt | 🟢 Niedrig | – |
+| [⚡ digitalSTROM-Messdaten exportieren](Ger%C3%A4teintegration/digitalSTROM-Export.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen) |
 
 ---
 
@@ -111,16 +137,17 @@ Server, Proxmox, Docker, Netzwerk, Wartung und Hardware-Installation.
 | [🔌 Raspberry Pis als USB/IP-Server](Infrastruktur/USB-IP-Server.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
 | [📦 VMs in LXC-Container umwandeln](Infrastruktur/Proxmox-VM-zu-LXC.md) | 💡 Idee | 🟠 Mittel | Labormitarbeitende, Praxissemester |
 | [📱 Wand-Tablets im Kiosk-Modus](Infrastruktur/Tablets-und-Kiosk.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
+| [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [🖥️ Remote-Zugriff (Guacamole, WOLverine)](Infrastruktur/Remote-Zugriff-Guacamole.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
 | [📡 MQTT Live Monitor](Infrastruktur/MQTT-Live-Monitor.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🪟 Windows-Systeme automatisch aktualisieren](Infrastruktur/Windows-Systeme-aktualisieren.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
-| [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
+| [🧹 Frühere Hilfsskripte](Infrastruktur/Alte-Hilfsskripte.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen) |
 
 ---
 
 ## openHAB
 
-Konfiguration, Rules, Oberflächen und Erweiterungen von openHAB.
+Konfiguration, Rules, Oberflächen, Bibliotheken und Erweiterungen von openHAB.
 
 | Vorhaben | Status | Priorität | Geeignet für |
 | --- | --- | --- | --- |
@@ -128,6 +155,7 @@ Konfiguration, Rules, Oberflächen und Erweiterungen von openHAB.
 | [🖥️ Eigene HTML-Dashboards](openHAB/Dashboards.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi, Studienprojekt |
 | [🏷️ Semantisches Modell und Tags](openHAB/Semantisches-Modell.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
 | [🐍 Python-3-Migration älterer openHAB-Projekte](openHAB/Python-3-Migration-Altprojekte.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi, Praxissemester |
+| [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) | 🔍 Test ausstehend | 🟠 Mittel | Hiwi, Studienprojekt |
 | [🗑️ Abfallkalender](openHAB/Abfallkalender.md) | ⛔ Blockiert | 🟢 Niedrig | Hiwi |
 | [🗂️ Things und Items als Textdateien](openHAB/Things-und-Items.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [📅 Google-Bridge (Gmail und Kalender)](openHAB/Google-Bridge.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
@@ -135,13 +163,16 @@ Konfiguration, Rules, Oberflächen und Erweiterungen von openHAB.
 | [🔗 ROS 2 und openHAB](openHAB/ROS2-Bridge.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 | [🔄 Repositories bereits migrierter Projekte aktualisieren](openHAB/Repos-migrierter-Projekte-aktualisieren.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🧭 Sitemaps und MainUI](openHAB/Sitemaps-und-MainUI.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
-| [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) | 🔍 Test ausstehend | 🟠 Mittel | Hiwi, Studienprojekt |
+| [🛠️ Weitere Hilfswerkzeuge](openHAB/Hilfswerkzeuge.md) | ✅ Erledigt | 🟢 Niedrig | – |
+| [📚 Frühere Python-Bibliotheken und Proxys für openHAB](openHAB/Python-Bibliotheken-Historie.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen) |
+| [🤖 ROS-1-Bridge zwischen openHAB und ROS](openHAB/ROS1-openHAB-Bridge-Historie.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen), Studienprojekt |
+| [🧠 openhab-ai: ML-basierte Regel-Engine](openHAB/openHAB-AI-Regel-Engine.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen), Abschlussarbeit |
 
 ---
 
 ## Experimente
 
-Geräte und Ideen, die erst noch erprobt werden.
+Geräte und Ideen, die erst noch erprobt werden – oder früher erprobt wurden.
 
 | Vorhaben | Status | Priorität | Geeignet für |
 | --- | --- | --- | --- |
@@ -163,6 +194,7 @@ Geräte und Ideen, die erst noch erprobt werden.
 | [📻 Imperial Dabman i250 (Internetradio)](Experimente/Imperial-Dabman-i250.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [✋ Leap Motion](Experimente/Leap-Motion.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
 | [🎤 Philips AEA3000/00 (Mikrofone)](Experimente/Philips-AEA3000.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt |
+| [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [📺 Samsung SmartTV](Experimente/Samsung-SmartTV.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [🫖 Smarter SMK20-EU (Wasserkocher)](Experimente/Smarter-SMK20-Wasserkocher.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [🚪 Türdurchgangszähler (TF-Luna)](Experimente/Door-Traffic-Counter.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
@@ -170,7 +202,7 @@ Geräte und Ideen, die erst noch erprobt werden.
 | [📡 WebTV](Experimente/WebTV.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
 | [🎮 Xbox-Controller und Xbox-Konsole](Experimente/Xbox-Steuerung.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [⚽ adidas miCoach Smart Ball](Experimente/adidas-miCoach-Smart-Ball.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt |
-| [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
+| [🔋 Smart Charging Station](Experimente/Smart-Charging-Station.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen), Hiwi |
 
 ---
 
@@ -178,6 +210,7 @@ Geräte und Ideen, die erst noch erprobt werden.
 
 Vorhaben, die sich für Hiwis und den Einstieg ins Praxissemester eignen und nicht blockiert sind:
 
+* [🗓️ Laufender Betrieb (Daily Business)](Betrieb/Laufender-Betrieb.md) – 🚧 In Arbeit
 * [🤳 Pepper-Selfie](Demos/Pepper-Selfie.md) – 🚧 In Arbeit
 * [📽️ BenQ MH856UST (Beamer)](Ger%C3%A4teintegration/BenQ-MH856UST.md) – 🔍 Test ausstehend
 * [📰 Newspaper Projector](Ger%C3%A4teintegration/Newspaper-Projector.md) – 🚧 In Arbeit
@@ -192,12 +225,14 @@ Vorhaben, die sich für Hiwis und den Einstieg ins Praxissemester eignen und nic
 * [🦄 Python-Webanwendungen auf Gunicorn umstellen](Infrastruktur/Gunicorn-Migration.md) – 🚧 In Arbeit
 * [🔌 Raspberry Pis als USB/IP-Server](Infrastruktur/USB-IP-Server.md) – 🚧 In Arbeit
 * [📱 Wand-Tablets im Kiosk-Modus](Infrastruktur/Tablets-und-Kiosk.md) – 🚧 In Arbeit
+* [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) – 💡 Idee
 * [🖥️ Remote-Zugriff (Guacamole, WOLverine)](Infrastruktur/Remote-Zugriff-Guacamole.md) – 🔍 Test ausstehend
 * [📡 MQTT Live Monitor](Infrastruktur/MQTT-Live-Monitor.md) – 🚧 In Arbeit
 * [🪟 Windows-Systeme automatisch aktualisieren](Infrastruktur/Windows-Systeme-aktualisieren.md) – 🚧 In Arbeit
 * [🖥️ Eigene HTML-Dashboards](openHAB/Dashboards.md) – 🚧 In Arbeit
 * [🏷️ Semantisches Modell und Tags](openHAB/Semantisches-Modell.md) – 🚧 In Arbeit
 * [🐍 Python-3-Migration älterer openHAB-Projekte](openHAB/Python-3-Migration-Altprojekte.md) – 🚧 In Arbeit
+* [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) – 🔍 Test ausstehend
 * [🗂️ Things und Items als Textdateien](openHAB/Things-und-Items.md) – 🚧 In Arbeit
 * [📅 Google-Bridge (Gmail und Kalender)](openHAB/Google-Bridge.md) – 🚧 In Arbeit
 * [🔧 Kleinere Optimierungen](openHAB/Optimierungen.md) – 💡 Idee
@@ -213,16 +248,33 @@ Vorhaben, die sich für Hiwis und den Einstieg ins Praxissemester eignen und nic
 * [👋 Gestensteuerung mit ToF-Sensoren](Experimente/ToF-Gestensteuerung.md) – 🧪 Experiment
 * [📻 Imperial Dabman i250 (Internetradio)](Experimente/Imperial-Dabman-i250.md) – 🧪 Experiment
 * [✋ Leap Motion](Experimente/Leap-Motion.md) – 🔍 Test ausstehend
+* [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) – 💡 Idee
 * [📺 Samsung SmartTV](Experimente/Samsung-SmartTV.md) – 🧪 Experiment
 * [🫖 Smarter SMK20-EU (Wasserkocher)](Experimente/Smarter-SMK20-Wasserkocher.md) – 🧪 Experiment
 * [🚪 Türdurchgangszähler (TF-Luna)](Experimente/Door-Traffic-Counter.md) – 🧪 Experiment
 * [📡 WebTV](Experimente/WebTV.md) – 🔍 Test ausstehend
 * [🎮 Xbox-Controller und Xbox-Konsole](Experimente/Xbox-Steuerung.md) – 🧪 Experiment
-* [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) – 🔍 Test ausstehend
-* [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) – 💡 Idee
-* [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) – 💡 Idee
 
 Besonders gut zum Kennenlernen: **ungetestete Repositories testen** (siehe [Repository-Übersicht](Repositories.md#ungetestet-und-noch-nicht-integriert)) und **deprecated Repositories kennzeichnen und archivieren**.
+
+---
+
+## Woran kann ich anknüpfen?
+
+Abgeschlossene und abgelöste Vorhaben sind eine gute Quelle für eigene Ideen – vieles lässt sich mit heutigen Mitteln neu aufgreifen oder weiterentwickeln:
+
+* [🪟 Somfy TaHoma (lokale API)](Ger%C3%A4teintegration/Somfy-TaHoma.md) – ✅ Erledigt
+* [⚡ digitalSTROM-Messdaten exportieren](Ger%C3%A4teintegration/digitalSTROM-Export.md) – ⚰️ Deprecated
+* [🧹 Frühere Hilfsskripte](Infrastruktur/Alte-Hilfsskripte.md) – ⚰️ Deprecated
+* [🛠️ Weitere Hilfswerkzeuge](openHAB/Hilfswerkzeuge.md) – ✅ Erledigt
+* [📚 Frühere Python-Bibliotheken und Proxys für openHAB](openHAB/Python-Bibliotheken-Historie.md) – ⚰️ Deprecated
+* [🤖 ROS-1-Bridge zwischen openHAB und ROS](openHAB/ROS1-openHAB-Bridge-Historie.md) – ⚰️ Deprecated
+* [🧠 openhab-ai: ML-basierte Regel-Engine](openHAB/openHAB-AI-Regel-Engine.md) – ⚰️ Deprecated
+* [🔋 Smart Charging Station](Experimente/Smart-Charging-Station.md) – ⚰️ Deprecated
+
+Alles, was bereits **integriert und in Betrieb** ist (derzeit 63 Repositories – von Gerätesteuerungen über REST-Clients in acht Sprachen bis zu Backup-Skripten), steht in der [Repository-Übersicht → Integriert und in Betrieb](Repositories.md#integriert-und-in-betrieb); die **54 deprecated Repositories** mit Nachfolger unter [Deprecated und entfernt](Repositories.md#deprecated-und-entfernt).
+
+Zusätzlich enthalten viele laufende Vorhaben einen Abschnitt **Historie** mit früheren Ansätzen (z. B. die Vorgänger von WebTV, Webradio und der Beamer-Steuerung).
 
 ---
 
@@ -234,13 +286,15 @@ Besonders gut zum Kennenlernen: **ungetestete Repositories testen** (siehe [Repo
 2. Im **Projekt-Repository** arbeiten (Branch, Pull Request); Code gehört nicht in dieses Backlog.
 3. Hier im Vorhaben erledigte Aufgaben abhaken (`- [x]`) und Erkenntnisse unter **Ist-Stand** ergänzen.
 4. Status und Priorität **in der Datei und in der Tabelle oben** anpassen; bei Repositories auch die [Repository-Übersicht](Repositories.md) aktualisieren.
-5. Abgeschlossene Vorhaben nicht löschen, sondern auf ✅ setzen.
+5. Abgeschlossene Vorhaben nicht löschen, sondern auf ✅ setzen; abgelöste auf ⚰️.
 
 ### Ein neues Vorhaben anlegen
 
 1. [VORLAGE.md](VORLAGE.md) in den passenden Ordner kopieren und sprechend benennen (`Geräte-Name.md`, keine Leerzeichen).
 2. Ziel, Ist-Stand und offene Aufgaben ausfüllen.
 3. In der passenden Tabelle oben eintragen.
+
+Auch **Bastel- und Lötprojekte** ohne eigenes Repository gehören hierher – meist in den Ordner `Experimente`.
 
 ### Konventionen
 

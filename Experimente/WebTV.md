@@ -14,6 +14,7 @@
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
 - [Ideen und Szenarien](#ideen-und-szenarien)
+- [Historie](#historie)
 - [Repositories](#repositories)
 <!-- /TOC -->
 
@@ -43,6 +44,17 @@ Fernsehstreams im Smart Home abspielen – lokal oder auf einem entfernten Gerä
 ## Ideen und Szenarien
 
 * Sender auswählen → Rule schaltet den [Beamer](../Geräteintegration/BenQ-MH856UST.md) ein → Quelle Raspberry Pi → Stream im Vollbild.
+
+---
+
+## Historie
+
+Frühere Ansätze, die inzwischen **deprecated** sind:
+
+* [openHAB-web-tv](https://github.com/Michdo93/openHAB-web-tv) – TV-Streams per Exec Binding und SSH auf einem entfernten Rechner (VLC oder Browser)
+* [openHAB-VLC-Control](https://github.com/Michdo93/openHAB-VLC-Control) – VLC per Exec Action und Python-Skript steuern
+* [webtv_selenium](https://github.com/Michdo93/webtv_selenium) – Login bei deutschen Web-TV-Livestreams per Selenium
+* [python-german-epg](https://github.com/Michdo93/python-german-epg) – EPG für deutsches Fernsehen per Web-Scraping (TV Spielfilm)
 
 ---
 

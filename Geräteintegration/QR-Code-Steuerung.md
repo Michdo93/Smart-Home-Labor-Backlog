@@ -13,6 +13,7 @@
 - [Ziel](#ziel)
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
+- [Historie](#historie)
 - [Repositories](#repositories)
 <!-- /TOC -->
 
@@ -33,6 +34,14 @@ Geräte lassen sich durch Scannen eines QR-Codes bedienen: Der Code enthält den
 
 * [ ] QR-Codes für alle Räume/Gerätegruppen erzeugen, drucken und anbringen
 * [ ] Liste der Codes und zugehörigen Group-Items dokumentieren
+
+---
+
+## Historie
+
+Frühere Ansätze, die inzwischen **deprecated** sind:
+
+* [openHAB-QR-Code-Scanner](https://github.com/Michdo93/openHAB-QR-Code-Scanner) – Android-App, die QR-Codes scannt und openHAB-Items bedient
 
 ---
 

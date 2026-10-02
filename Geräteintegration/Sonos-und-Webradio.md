@@ -15,6 +15,7 @@
   - [IP-Adressen der Sonos-Geräte](#ip-adressen-der-sonos-geräte)
 - [Offene Aufgaben](#offene-aufgaben)
 - [Hinweise und Risiken](#hinweise-und-risiken)
+- [Historie](#historie)
 - [Repositories](#repositories)
 <!-- /TOC -->
 
@@ -63,6 +64,14 @@ In jedem Raum lässt sich über eine ansprechende Weboberfläche Webradio auf de
 * Deshalb: Upgrades **nie kurz vor einer Labor-Demo**.
 * Der Lautsprecher im Multimedia-Raum wird vom [Pepper-Concierge](../Demos/Pepper-Concierge.md) direkt angesprochen.
 * Vorgänger `openHAB-web-radio` (Sonos Binding mit MP3-Livestreams) ist deprecated.
+
+---
+
+## Historie
+
+Frühere Ansätze, die inzwischen **deprecated** sind:
+
+* [openHAB-web-radio](https://github.com/Michdo93/openHAB-web-radio) – Webradio über das Sonos Binding mit MP3-Livestreams
 
 ---
 

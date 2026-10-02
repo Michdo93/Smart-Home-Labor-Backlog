@@ -15,6 +15,7 @@
 - [Offene Aufgaben](#offene-aufgaben)
 - [Abhängigkeiten](#abhängigkeiten)
 - [Hinweise und Risiken](#hinweise-und-risiken)
+- [Historie](#historie)
 - [Repositories](#repositories)
 <!-- /TOC -->
 
@@ -56,6 +57,15 @@ Der Pepper-Concierge soll als Labor-Demo zuverlässig laufen.
 ## Hinweise und Risiken
 
 * Dass der Beamer vorher schon dauerhaft eingeschaltet war, hat in Demos bisher nicht gestört.
+
+---
+
+## Historie
+
+Frühere Ansätze, die inzwischen **deprecated** sind:
+
+* [Pepper_ConciergeShort](https://github.com/Michdo93/Pepper_ConciergeShort) – Frühere Kurzvariante des Concierge
+* [pepper_brute_force](https://github.com/Michdo93/pepper_brute_force) – Verbindungsaufbau zu Pepper über das Python-SDK per Brute Force; fährt alle Pepper-Roboter im angegebenen Netz herunter – nur als Dokumentation, nicht verwenden
 
 ---
 

@@ -14,6 +14,7 @@
 - [Ist-Stand](#ist-stand)
 - [Offene Aufgaben](#offene-aufgaben)
 - [Ideen und Szenarien](#ideen-und-szenarien)
+- [Historie](#historie)
 - [Repositories](#repositories)
 <!-- /TOC -->
 
@@ -44,6 +45,16 @@ Der Beamer soll zuverlässig über openHAB gesteuert werden – mit Befehlen **u
 ## Ideen und Szenarien
 
 * Zusammenspiel mit [WebTV](../Experimente/WebTV.md): Sender wählen → Beamer an → Quelle Raspberry Pi → Stream im Vollbild.
+
+---
+
+## Historie
+
+Frühere Ansätze, die inzwischen **deprecated** sind:
+
+* [crestron-roomview](https://github.com/Michdo93/crestron-roomview) – Docker-Container, der Crestron RoomView (Flash) mit Firefox 52 und Flash Player 32 in einem virtuellen Display fernsteuert
+* [openHAB-Crestron-RoomView-Control](https://github.com/Michdo93/openHAB-Crestron-RoomView-Control) – Steuerung der Crestron-RoomView-Flash-Anwendung mit openHAB
+* [rs232](https://github.com/Michdo93/rs232) – Allgemeiner RS232-Handler in Python
 
 ---
 

@@ -2,7 +2,7 @@
 
 | | |
 | --- | --- |
-| **Status** | 💡 Idee / 🧪 Experiment / 🚧 In Arbeit / 🔍 Test ausstehend / ⛔ Blockiert / ✅ Erledigt |
+| **Status** | 💡 Idee / 🧪 Experiment / 🚧 In Arbeit / 🔍 Test ausstehend / ⛔ Blockiert / ✅ Erledigt / ⚰️ Deprecated |
 | **Priorität** | 🔴 Hoch / 🟠 Mittel / 🟢 Niedrig |
 | **Raum** | z. B. Multimedia, Konferenz, Küche, Bad, IoT |
 | **Geeignet für** | Hiwi / Praxissemester / Studienprojekt / Abschlussarbeit / Labormitarbeitende |
