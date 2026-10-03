@@ -28,6 +28,8 @@ Mehrere virtuelle Maschinen müssen innerhalb der Proxmox-Umgebung **umgezogen**
 
 * Es gibt einen **Proxmox Virtual Environment**-Server und einen **Proxmox Backup Server**; beide werden bereits automatisch per Ansible aktualisiert.
 * Welche VMs genau umziehen, wohin und in welcher Reihenfolge, ist in der Tabelle unten zu erfassen.
+* Konkret zu migrierende/umzuziehende VMs (aus früherer Planung): Redmine-VM, Projekt-Webserver, openHAB-Cloud, Monitoring-VM, IP-Kamera-VM, Nextcloud (groß, ~800 GB), Pepper-VM (Ubuntu 16.04), ROS-Kinetic-VM (Ubuntu 16.04), zwei „Gesichter zählen“-VMs (Windows 7 → aktuelles Windows).
+* Viele VMs laufen noch unter **Ubuntu-Desktop**-Versionen und sollten auf **Ubuntu Server** umgestellt werden; einige brauchen Software-Upgrades und Datenmigration (Redmine/Ruby, Nextcloud, MySQL).
 
 ---
 
@@ -41,6 +43,9 @@ Mehrere virtuelle Maschinen müssen innerhalb der Proxmox-Umgebung **umgezogen**
 * [ ] Nach dem Umzug prüfen: Netzwerk, feste IP, Dienste, Autostart (`onboot`), Backups-Job zeigt auf die neue VM
 * [ ] Ansible-Inventar und Dokumentation aktualisieren
 * [ ] Alte VM erst nach erfolgreichem Test und Wartezeit löschen
+* [ ] Pro VM entscheiden: Desktop → Server, Betriebssystem-Upgrade nötig? Software-/Daten-Migration?
+* [ ] Alt-VMs mit EOL-Systemen (Ubuntu 16.04, Windows 7) gesondert behandeln (Isolierung, Ersatz, Risiko)
+* [ ] Netzwerkzuordnung festlegen (öffentliches Netz / Informatik-Netz / Labornetz), feste IP per MAC
 
 ---
 

@@ -25,6 +25,7 @@ openHAB kann auf Gmail und den Google-Kalender zugreifen, z. B. um Termine anzuz
 ## Ist-Stand
 
 * Die Bridge ist entwickelt, aber noch nicht integriert.
+* Historisch gab es eine Anbindung über das alte **GCal-IO-Add-on** (`org.openhab.io.gcal`) – veraltet; der neue Weg ist die eigene Google-Bridge.
 
 ---
 

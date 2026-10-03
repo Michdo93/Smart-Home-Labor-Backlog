@@ -43,14 +43,14 @@ Rahmenbedingungen und Voraussetzungen für eine Mitarbeit stehen im Repository [
 
 | Status | Vorhaben |
 | --- | --- |
-| 🚧 In Arbeit | 25 |
+| 🚧 In Arbeit | 28 |
 | 🔍 Test ausstehend | 10 |
 | 🧪 Experiment | 21 |
-| 💡 Idee | 11 |
+| 💡 Idee | 16 |
 | ⛔ Blockiert | 4 |
 | ✅ Erledigt | 2 |
-| ⚰️ Deprecated | 7 |
-| **Gesamt** | **80** |
+| ⚰️ Deprecated | 8 |
+| **Gesamt** | **89** |
 
 Die **[Ideensammlung & Verworfenes](Ideensammlung%20%26%20Verworfenes.md)** hält fest, was aus früheren Projektideen geworden ist und welche bewusst nicht weiterverfolgt werden.
 
@@ -136,13 +136,16 @@ Server, Proxmox, Docker, Netzwerk, Wartung und Hardware-Installation.
 | [⚙️ Ansible](Infrastruktur/Ansible.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi, Praxissemester |
 | [☎️ Intercom (Asterisk)](Infrastruktur/Intercom-Asterisk.md) | ⛔ Blockiert | 🟠 Mittel | Hiwi |
 | [🧰 Backup- und Wartungsskripte](Infrastruktur/Backups-und-Wartungsskripte.md) | 🔍 Test ausstehend | 🟠 Mittel | Hiwi |
+| [📊 Monitoring (Nagios & Grafana)](Infrastruktur/Monitoring-Nagios-Grafana.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi, Praxissemester |
 | [🦄 Python-Webanwendungen auf Gunicorn umstellen](Infrastruktur/Gunicorn-Migration.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
 | [🔌 Raspberry Pis als USB/IP-Server](Infrastruktur/USB-IP-Server.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
 | [📦 VMs in LXC-Container umwandeln](Infrastruktur/Proxmox-VM-zu-LXC.md) | 💡 Idee | 🟠 Mittel | Labormitarbeitende, Praxissemester |
 | [📱 Wand-Tablets im Kiosk-Modus](Infrastruktur/Tablets-und-Kiosk.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
+| [🕹️ Anwendungen auf PCs fernsteuern](Infrastruktur/Remote-Anwendungssteuerung.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [🖥️ Remote-Zugriff (Guacamole, WOLverine)](Infrastruktur/Remote-Zugriff-Guacamole.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
 | [📡 MQTT Live Monitor](Infrastruktur/MQTT-Live-Monitor.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
+| [💿 Vorinstallierte VM-Vorlagen](Infrastruktur/Vorinstallierte-VMs.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [🪟 Windows-Systeme automatisch aktualisieren](Infrastruktur/Windows-Systeme-aktualisieren.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🧹 Frühere Hilfsskripte](Infrastruktur/Alte-Hilfsskripte.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen) |
 
@@ -157,10 +160,12 @@ Konfiguration, Rules, Oberflächen, Bibliotheken und Erweiterungen von openHAB.
 | [📜 Migration der Rules](openHAB/Rules-Migration.md) | 🚧 In Arbeit | 🔴 Hoch | Labormitarbeitende, Praxissemester |
 | [🖥️ Eigene HTML-Dashboards](openHAB/Dashboards.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi, Studienprojekt |
 | [🏷️ Semantisches Modell und Tags](openHAB/Semantisches-Modell.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
+| [🗣️ Sprachsteuerung über Alexa](openHAB/Sprachsteuerung-Alexa.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi |
 | [🐍 Python-3-Migration älterer openHAB-Projekte](openHAB/Python-3-Migration-Altprojekte.md) | 🚧 In Arbeit | 🟠 Mittel | Hiwi, Praxissemester |
 | [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) | 🔍 Test ausstehend | 🟠 Mittel | Hiwi, Studienprojekt |
 | [🗑️ Abfallkalender](openHAB/Abfallkalender.md) | ⛔ Blockiert | 🟢 Niedrig | Hiwi |
 | [🗂️ Things und Items als Textdateien](openHAB/Things-und-Items.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
+| [🧰 Exec-Binding-Kompendium](openHAB/Exec-Binding-Kompendium.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [📅 Google-Bridge (Gmail und Kalender)](openHAB/Google-Bridge.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🔧 Kleinere Optimierungen](openHAB/Optimierungen.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [🔗 ROS 2 und openHAB](openHAB/ROS2-Bridge.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
@@ -168,6 +173,7 @@ Konfiguration, Rules, Oberflächen, Bibliotheken und Erweiterungen von openHAB.
 | [🧭 Sitemaps und MainUI](openHAB/Sitemaps-und-MainUI.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi |
 | [🛠️ Weitere Hilfswerkzeuge](openHAB/Hilfswerkzeuge.md) | ✅ Erledigt | 🟢 Niedrig | – |
 | [📚 Frühere Python-Bibliotheken und Proxys für openHAB](openHAB/Python-Bibliotheken-Historie.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen) |
+| [🔑 REST-API-Authentifizierung schaltbar](openHAB/REST-Authentifizierung.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen) |
 | [🤖 ROS-1-Bridge zwischen openHAB und ROS](openHAB/ROS1-openHAB-Bridge-Historie.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen), Studienprojekt |
 | [🧠 openhab-ai: ML-basierte Regel-Engine](openHAB/openHAB-AI-Regel-Engine.md) | ⚰️ Deprecated | 🟢 Niedrig | Alle (zum Nachlesen), Abschlussarbeit |
 
@@ -184,6 +190,7 @@ Geräte und Ideen, die erst noch erprobt werden – oder früher erprobt wurden.
 | [☎️ Beschwerde-Hotline](Experimente/Beschwerde-Hotline.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [🖨️ Brother VC-500W (Etikettendrucker)](Experimente/Brother-VC-500W.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [🗣️ Lokale Sprachassistenten (LIVA, Spracherkennungs-App)](Experimente/Lokale-Sprachassistenten.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
+| [🖐️ Multitouchtisch & HTC Vive](Experimente/Multitouchtisch-Vive.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt |
 | [🏋️ NAO Gym Instructor](Experimente/NAO-Gym-Instructor.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt, Abschlussarbeit |
 | [🏷️ NFC/RFID](Experimente/NFC-RFID.md) | 🚧 In Arbeit | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [🎛️ Roboter-Controller in mehreren Sprachen](Experimente/Roboter-Controller-Sammlung.md) | 🔍 Test ausstehend | 🟢 Niedrig | Studienprojekt |
@@ -195,6 +202,7 @@ Geräte und Ideen, die erst noch erprobt werden – oder früher erprobt wurden.
 | [💡 Beam Labs Beam (Projektor-Lampen)](Experimente/Beam-Labs-Beam.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt |
 | [📸 ESP32-Cam](Experimente/ESP32-Cam.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
 | [🔳 Geräteerkennung per QR-Code](Experimente/QR-Code-Geraeteerkennung.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt |
+| [👤 Gesichter zählen (Multimediabox)](Experimente/Gesichter-zaehlen.md) | 💡 Idee | 🟢 Niedrig | Studienprojekt |
 | [👋 Gestensteuerung mit ToF-Sensoren](Experimente/ToF-Gestensteuerung.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [📶 IR-USB-HID-Transceiver](Experimente/IR-USB-HID-Transceiver.md) | ⛔ Blockiert | 🟢 Niedrig | Hiwi |
 | [📻 Imperial Dabman i250 (Internetradio)](Experimente/Imperial-Dabman-i250.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
@@ -205,6 +213,7 @@ Geräte und Ideen, die erst noch erprobt werden – oder früher erprobt wurden.
 | [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [📺 Samsung SmartTV](Experimente/Samsung-SmartTV.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [🫖 Smarter SMK20-EU (Wasserkocher)](Experimente/Smarter-SMK20-Wasserkocher.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi |
+| [📺 Sprachsteuerung für Multimedia-Geräte](Experimente/Sprachsteuerung-Multimedia.md) | 💡 Idee | 🟢 Niedrig | Hiwi |
 | [🚪 Türdurchgangszähler (TF-Luna)](Experimente/Door-Traffic-Counter.md) | 🧪 Experiment | 🟢 Niedrig | Hiwi, Studienprojekt |
 | [🥽 VR und AR (HoloLens, HTC Vive)](Experimente/VR-AR.md) | 🧪 Experiment | 🟢 Niedrig | Studienprojekt |
 | [📡 WebTV](Experimente/WebTV.md) | 🔍 Test ausstehend | 🟢 Niedrig | Hiwi |
@@ -232,18 +241,23 @@ Vorhaben, die sich für Hiwis und den Einstieg ins Praxissemester eignen und nic
 * [🐳 Container in der Docker-VM](Infrastruktur/Docker-VM.md) – 🚧 In Arbeit
 * [⚙️ Ansible](Infrastruktur/Ansible.md) – 🚧 In Arbeit
 * [🧰 Backup- und Wartungsskripte](Infrastruktur/Backups-und-Wartungsskripte.md) – 🔍 Test ausstehend
+* [📊 Monitoring (Nagios & Grafana)](Infrastruktur/Monitoring-Nagios-Grafana.md) – 🚧 In Arbeit
 * [🦄 Python-Webanwendungen auf Gunicorn umstellen](Infrastruktur/Gunicorn-Migration.md) – 🚧 In Arbeit
 * [🔌 Raspberry Pis als USB/IP-Server](Infrastruktur/USB-IP-Server.md) – 🚧 In Arbeit
 * [📱 Wand-Tablets im Kiosk-Modus](Infrastruktur/Tablets-und-Kiosk.md) – 🚧 In Arbeit
+* [🕹️ Anwendungen auf PCs fernsteuern](Infrastruktur/Remote-Anwendungssteuerung.md) – 🚧 In Arbeit
 * [🗄️ Deprecated Repositories kennzeichnen und archivieren](Infrastruktur/Deprecated-Repos-aufraeumen.md) – 💡 Idee
 * [🖥️ Remote-Zugriff (Guacamole, WOLverine)](Infrastruktur/Remote-Zugriff-Guacamole.md) – 🔍 Test ausstehend
 * [📡 MQTT Live Monitor](Infrastruktur/MQTT-Live-Monitor.md) – 🚧 In Arbeit
+* [💿 Vorinstallierte VM-Vorlagen](Infrastruktur/Vorinstallierte-VMs.md) – 💡 Idee
 * [🪟 Windows-Systeme automatisch aktualisieren](Infrastruktur/Windows-Systeme-aktualisieren.md) – 🚧 In Arbeit
 * [🖥️ Eigene HTML-Dashboards](openHAB/Dashboards.md) – 🚧 In Arbeit
 * [🏷️ Semantisches Modell und Tags](openHAB/Semantisches-Modell.md) – 🚧 In Arbeit
+* [🗣️ Sprachsteuerung über Alexa](openHAB/Sprachsteuerung-Alexa.md) – 🚧 In Arbeit
 * [🐍 Python-3-Migration älterer openHAB-Projekte](openHAB/Python-3-Migration-Altprojekte.md) – 🚧 In Arbeit
 * [🧪 openHAB REST-Clients und Test Suites](openHAB/REST-Clients-und-Test-Suites.md) – 🔍 Test ausstehend
 * [🗂️ Things und Items als Textdateien](openHAB/Things-und-Items.md) – 🚧 In Arbeit
+* [🧰 Exec-Binding-Kompendium](openHAB/Exec-Binding-Kompendium.md) – 💡 Idee
 * [📅 Google-Bridge (Gmail und Kalender)](openHAB/Google-Bridge.md) – 🚧 In Arbeit
 * [🔧 Kleinere Optimierungen](openHAB/Optimierungen.md) – 💡 Idee
 * [🔄 Repositories bereits migrierter Projekte aktualisieren](openHAB/Repos-migrierter-Projekte-aktualisieren.md) – 🚧 In Arbeit
@@ -262,6 +276,7 @@ Vorhaben, die sich für Hiwis und den Einstieg ins Praxissemester eignen und nic
 * [🔎 Repositories ohne Beschreibung sichten](Experimente/Unklare-Repositories-sichten.md) – 💡 Idee
 * [📺 Samsung SmartTV](Experimente/Samsung-SmartTV.md) – 🧪 Experiment
 * [🫖 Smarter SMK20-EU (Wasserkocher)](Experimente/Smarter-SMK20-Wasserkocher.md) – 🧪 Experiment
+* [📺 Sprachsteuerung für Multimedia-Geräte](Experimente/Sprachsteuerung-Multimedia.md) – 💡 Idee
 * [🚪 Türdurchgangszähler (TF-Luna)](Experimente/Door-Traffic-Counter.md) – 🧪 Experiment
 * [📡 WebTV](Experimente/WebTV.md) – 🔍 Test ausstehend
 * [🎮 Xbox-Controller und Xbox-Konsole](Experimente/Xbox-Steuerung.md) – 🧪 Experiment
@@ -279,6 +294,7 @@ Abgeschlossene und abgelöste Vorhaben sind eine gute Quelle für eigene Ideen �
 * [🧹 Frühere Hilfsskripte](Infrastruktur/Alte-Hilfsskripte.md) – ⚰️ Deprecated
 * [🛠️ Weitere Hilfswerkzeuge](openHAB/Hilfswerkzeuge.md) – ✅ Erledigt
 * [📚 Frühere Python-Bibliotheken und Proxys für openHAB](openHAB/Python-Bibliotheken-Historie.md) – ⚰️ Deprecated
+* [🔑 REST-API-Authentifizierung schaltbar](openHAB/REST-Authentifizierung.md) – ⚰️ Deprecated
 * [🤖 ROS-1-Bridge zwischen openHAB und ROS](openHAB/ROS1-openHAB-Bridge-Historie.md) – ⚰️ Deprecated
 * [🧠 openhab-ai: ML-basierte Regel-Engine](openHAB/openHAB-AI-Regel-Engine.md) – ⚰️ Deprecated
 * [🔓 Sicherheit der NAO-/Pepper-Roboter](Experimente/NAOqi-Sicherheit.md) – ⚰️ Deprecated
